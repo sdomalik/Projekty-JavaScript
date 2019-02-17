@@ -74,15 +74,12 @@ function pinToTop(fromIndex) {
         if(note != null)
             addNotesToNotesContainer(note);
     });
+    updateLocalStorage();
 }
 
 //sets background of note div
 function changeColor(noteDiv) {
-    if (noteDiv.style.background == "palegoldenrod") {
-        noteDiv.style.background = "red";
-    }
-    else
-        noteDiv.style.background = "palegoldenrod";
+    noteDiv.classList.add("color-red");
 }
 
 function updateLocalStorage() {
