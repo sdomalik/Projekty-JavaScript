@@ -1,0 +1,19 @@
+body{
+    background-color: #17181c;
+}
+#header{ 
+    text-align: center;
+    color: white;
+}
+#gameBox {
+    background-color: rgb(48, 61, 79);
+    border: 5px solid rgb(102, 102, 102);
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}
+#hints{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
