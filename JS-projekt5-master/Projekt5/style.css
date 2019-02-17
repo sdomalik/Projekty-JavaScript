@@ -1,0 +1,54 @@
+.note{
+    width: 25%;
+    background-color: palegoldenrod;   
+    border:2px solid white; 
+    position: relative;
+}
+#NotesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.note-title{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.note-content{
+    font-size: 20px;
+    text-align: center;
+    border-top:1px solid black;
+    overflow-wrap: break-word;
+    padding: 15px;
+}
+.note-date{
+    padding: 10px;
+    text-align: center;
+}
+.note-buttons{
+    width: 100%;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 50px auto 50px auto;
+}
+body{
+    background-color: burlywood;
+}
+
+#NewNoteSubmit{
+    margin: 0;
+}
+
+#NewNoteName{
+    background-color: palegoldenrod;
+}
+#NewNoteContent{
+    background-color: palegoldenrod;
+    
+}
