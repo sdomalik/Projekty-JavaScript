@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projekt2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <div class="ui grid" id="keyGrid">
+        <div class="row">
+            <div class="five wide column"></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/boom.wav"  data-soundKey="A"> <div><p>A</p> </div> </div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/clap.wav"  data-soundKey="S"><div><p>S</p></div></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/hihat.wav"  data-soundKey="D"><div><P>D</P></div></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/kick.wav"  data-soundKey="F"><div><p>F</p></div></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/openhat.wav"  data-soundKey="G"><div><P>G</P></div></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/ride.wav"  data-soundKey="H"><div><p>H</p></div></div>
+            <div class="five wide column"></div>
+            <div class="six wide column"></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/snare.wav" data-soundKey="Z" ><div><p>Z</p></div></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/tink.wav" data-soundKey="X" ><div><p>X</p></div></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/tom.wav" data-soundKey="C" ><div><p>C</p></div></div>
+            <div class="one wide column soundButton" data-soundPath="Sounds/tom.wav" data-soundKey="V" ><div><p>V</p></div></div>
+            <div class="six wide column"></div> 
+        </div>
+        <hr>
+        <div class="row">
+            <button class="fluid ui playAllButton button">Play all</button>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="eight wide column">
+                <div class="ui placeholder segment tracksegment" >
+                    <h3>Track 1</h3>
+                    <div class="ui icon buttons">
+                        <button class="ui recordButton button" data-trackId=0>
+                            <i class="circle icon"></i>
+                        </button>
+                        <button class="ui playButton button" data-trackId=0>
+                            <i class="play icon"></i>
+                        </button>
+                        <button class="ui clearButton button" data-trackId=0>
+                            <i class="x icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="eight wide column">
+                <div class="ui placeholder segment tracksegment">
+                    <h3>Track 2</h3>
+                    <div class="ui icon buttons">
+                        <button class="ui recordButton button" data-trackId=1>
+                            <i class="circle icon"></i>
+                        </button>
+                        <button class="ui playButton button" data-trackId=1>
+                            <i class="play icon"></i>
+                        </button>
+                        <button class="ui clearButton button" data-trackId=1>
+                            <i class="x icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>                        
+        </div>
+        <div class="row">
+            <div class="eight wide column">
+                <div class="ui placeholder segment tracksegment">
+                    <h3>Track 3</h3>
+                    <div class="ui icon buttons" >
+                        <button class="ui recordButton button" data-trackId=2>
+                            <i class="circle icon"></i>
+                        </button>
+                        <button class="ui playButton button" data-trackId=2>
+                            <i class="play icon"></i>
+                        </button>
+                        <button class="ui clearButton button" data-trackId=2>
+                            <i class="x icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="eight wide column">
+                <div class="ui placeholder segment tracksegment">
+                    <h3>Track 4</h3>
+                    <div class="ui icon buttons">
+                        <button class="ui recordButton button" data-trackId=3>
+                            <i class="circle icon"></i>
+                        </button>
+                        <button class="ui playButton button" data-trackId=3>
+                            <i class="play icon"></i>
+                        </button>
+                        <button class="ui button" data-trackId=3>
+                            <i class="x clearButton icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>                        
+        </div>            
+    </div>    
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script src="main.js"></script>
+</html>
